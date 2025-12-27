@@ -21,6 +21,8 @@ body {
  color: white;
  /* display: flex; */
  font-family: "Playfair Display", serif;
+ padding: none;
+ margin: 0;
 }
 
 .header p{
@@ -33,7 +35,6 @@ body {
 .container {
   width: 100%;
   max-width: 360px;
-  /* padding: 30px 20px; */
   text-align: center;
 }
 
@@ -45,10 +46,12 @@ body {
   background: white;
   color: black;
   padding: 12px;
+  width: auto;
   border-radius: 10px;
-  font-weight: bold;
+  font-weight: 600;
   transition: 0.3s ease;
   border: 1px solid black;
+  font-family: "Playfair Display", serif;
 }
 
 img {
