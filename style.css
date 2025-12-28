@@ -54,6 +54,12 @@ body {
   font-family: "Playfair Display", serif;
 }
 
+.links a:hover {
+  background: none;
+  color: white;
+
+}
+
 img {
   width: 120px;
   height: 120px;
